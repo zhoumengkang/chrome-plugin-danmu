@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "自带弹幕",
+  "description": "没有弹幕,我们自己造",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "notifications",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://mengkang.net/*"],
+      "js": ["js/jquery.js","js/jquery.danmu.js", "js/websocket.js"]
+    }
+  ],
+  "options_page": "options.html"
+}
