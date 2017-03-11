@@ -8,8 +8,4 @@
 http://mengkang.net/demo/websocket/
 
 # 截图对比
-
-## safari 上无插件原始装填
-![1489148033502064.png](https://mengkang.net/upload/image/2017/0310/1489148033502064.png)
-## chrome 安装插件之后
-![1489148078197397.png](https://mengkang.net/upload/image/2017/0310/1489148078197397.png)
+https://mengkang.net/900.html
